@@ -32,11 +32,11 @@ a:focus {
 }
 
 .footer{
-	background: #1f3c58;
-	color: #ebebeb;
-	padding: 20px 0;
-	text-align: center;
-	font-weight: 100;
+  background: #1f3c58;
+  color: #ebebeb;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 100;
 }
 h1,
 h2,
@@ -172,7 +172,8 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  background-size: cover;
+  padding: 160px 15px 160px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
