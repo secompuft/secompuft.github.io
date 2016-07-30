@@ -13,7 +13,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #082C44;
+  border-color: inherit;
   border-width: 3px;
   max-width: 50px;
 }
@@ -38,22 +38,20 @@ a:focus {
   text-align: center;
   font-weight: 100;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif';
-  color: #082C44;;
+  color: inherit;
 }
-p {
+
+p{
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #0e4e79;
+  color: #fff;
+  background-color: #40AAB9;
 }
 .bg-gradient {
   background-image: linear-gradient(to bottom, rgba(249, 250, 252, 0) 15%, #e6e6e6 100%);
@@ -69,10 +67,29 @@ p {
 .img-profile {
     border-radius: 70px;
 }
+.bg-personalizado{
+  color: white;
+  background-color: #39caa1;
+}.bg-grad {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
+    background: linear-gradient(22deg, #f7f7f7 0%, #f7f7f7 57%, #eef0f0 57.2%, #f7f7f7 100%);
+}.bg-globo {
+    z-index: 15;
+    background: transparent url(../img/globo.png) center center no-repeat;
+    padding: 6rem 0;
+}
+
 
 section {
   padding: 100px 0;
 }
+
+.divider {
+    height: 1px;
+    background-color: #dacccc;
+    margin: 4em 0 3em 0;
+}
+
 aside {
   padding: 50px 0;
 }

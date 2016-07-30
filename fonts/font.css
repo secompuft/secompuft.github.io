@@ -1,0 +1,9 @@
+@font-face {
+
+      font-family: "nexa";
+      src: url("nexa.ttf") format("truetype");
+
+ }
+ .eddie-font{
+    font-family: "nexa";  
+ }
