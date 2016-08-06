@@ -29,9 +29,23 @@
   <!-- Custom Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  
 
+  <!-- Circle -->
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/common.css" />
+  <link rel="stylesheet" type="text/css" href="css/stylecircle1.css" />
+
+  <!-- Custom Fonts -->
   <link rel="stylesheet" href="fonts/font.css" type="text/css" media="screen"/>
   
+  <!-- Animações -->
+  <link rel="stylesheet" type="text/css" href="css/all-animation.min.css" />
+  <script type="text/javascript" src="yourpath/jquery.js"></script>
+
+  <!-- Contagem Regressiva -->
+  <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
+
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="css/animate.min.css" type="text/css">
   
@@ -109,58 +123,87 @@
     </div>
   </header>
 
+  <section id="time-section" class="bg-globo">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 text-center">
+            <h2 class="ft-personalizada"><strong><em>Tempo restante para a IX SECOMP começar!</em></strong></h2>
+            <br><br>
+        </div>
+        
+        <div class="col-lg-8 col-lg-offset-2 centro" id="animation" > <time datetime="2016-10-18T03:00:00+0000">P2DT20H00M10S</time> </div>
+        
+      </div>
+    </div>
+  </section>
+  
   <section class="bg-grad" id="sobre" style="min-height:100%;" >
     <div class="container">
       
       <div class="row">
 
           <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2><strong>IX Semana Acadêmica de Ciência da Computação</strong></h2>
+            <h2 class="ft-personalizada"><strong><em>A Tecnologia da Informação Inovando na Produção e Distribuição de Alimentos</em></strong></h2>
             <hr>
-          </div>
+          </div>          
 
-          <div class="col-lg-6 col-md-12 col-sm-12 text-center">
-            <img src="img/icone.png">
-          </div>
-
-          <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center" id="texto">
             <br><br>
-              <h3><strong>Período</strong>: 18 a 20 de outubro de 2016</h3>
-              <h3><strong>Tema</strong>: A tecnologia da informação inovando na produção e distribuição de alimentos.</h3>
-              <h3><strong>Local</strong>: UFT Palmas -TO</h3>
-              <p><em>Palestras: Centro Universitário Integrado de Ciência, Cultura e Arte - <strong>CUICA</strong><br>
-              Mini cursos: Campus Universitário UFT Palmas - <strong>Bloco III</strong></em></p>
+              <h2 class="ft-personalizada">18 a 20 de outubro de 2016</h2>
+              
+              <h3 class="ft-personalizada"><strong>Local</strong>: UFT Palmas -TO</h3>
+              <h4 class="ft-personalizada">Palestras: Centro Universitário Integrado de Ciência, Cultura e Arte - <strong>CUICA</strong><br>
+              Mini cursos: Campus Universitário UFT Palmas - <strong>Bloco III</strong></h4>
           </div>
       </div>
 
       <div class="divider"></div>        
-       
-      <div class="row">
-                  <div class="col-lg-4 col-md-6 text-center">
-                    <a  style="text-decoration: none;">
-                      <div class="service-box">
-                          <h3>Game Nigth</h3>
-                          <p class="text-muted">A cada noite uma variedade de competições de jogos preparados pelo Centro Acadêmico de Computação.</p>
-                      </div>
-                    </a>
+
+      <div class="row" id="topicos">
+            <ul class="ch-grid">
+              <li>
+                <div class="ch-item ch-imge-16">
+                  <div class="ch-info">
+                    <h3>Game Nigth</h3>
+                    <p>by Angela Duncan <a href="http://drbl.in/eOPF">View on Dribbble</a></p>
                   </div>
-                  <div class="col-lg-4 col-md-6 text-center">
-                    <a style="text-decoration: none;">
-                                  <div class="service-box">
-                                      <h3>Palestras</h3>
-                                      <p class="text-muted">Temas atualizados e com visões tanto para o meio acadêmico quanto empreendedor.</p>
-                                  </div>
-                    </a>
+                </div>
+              </li>
+              <li>
+                <div class="ch-item ch-img-2">
+                  <div class="ch-info">
+                    <h3>Palestras</h3>
+                    <p>by Antonio F. Mondragon <a href="http://drbl.in/eKMi">View on Dribbble</a></p>
                   </div>
-                  <div class="col-lg-4 col-md-6 text-center">
-                    <a style="text-decoration: none;">
-                                <div class="service-box">
-                                    <h3>Mini Cursos</h3>
-                                    <p class="text-muted">Temas atualizados e com visões tanto para o meio acadêmico quanto empreendedor.</p>
-                                </div>
-                    </a>
+                </div>
+              </li>
+              <li>
+                <div class="ch-item ch-img-3">
+                  <div class="ch-info">
+                    <h3>Mini Cursos</h3>
+                    <p>by Charlie Wagers <a href="http://drbl.in/ekhp">View on Dribbble</a></p>
                   </div>
+                </div>
+              </li>
+              <li>
+                <div class="ch-item ch-img-3">
+                  <div class="ch-info">
+                    <h3>Mini Cursos</h3>
+                    <p>by Charlie Wagers <a href="http://drbl.in/ekhp">View on Dribbble</a></p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="ch-item ch-img-3">
+                  <div class="ch-info">
+                    <h3>Mini Cursos</h3>
+                    <p>by Charlie Wagers <a href="http://drbl.in/ekhp">View on Dribbble</a></p>
+                  </div>
+                </div>
+              </li>
+            </ul>
       </div>
+
     </div>  
   </section>
   
@@ -177,7 +220,7 @@
               <li class="active"><a href="#tab_a" data-toggle="tab" aria-expanded="true">1° Dia</a></li>
               <li class="#tab_b"><a href="#tab_b" data-toggle="tab" aria-expanded="false">2° Dia</a></li>
               <li class=""><a href="#tab_c" data-toggle="tab" aria-expanded="false">3° Dia</a></li>
-              <li class=""><a href="#tab_d" data-toggle="tab" aria-expanded="false">Minicursos</a></li>
+              <li class=""><a href="#tab_d" data-toggle="tab" aria-expanded="false"><strong>Minicursos</strong></a></li>
           </ul>
            
           <div class="tab-content">
@@ -425,7 +468,6 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
           <h2 class="section-heading"><strong>Organizadores da IX SECOMP</strong></h2>
-          <hr class="light">
         </div>
       </div>
     </div>
@@ -433,161 +475,160 @@
     <div class="container" id="organizacao_content"><div class="row">
     <div class="col-lg-12 text-center">
       <h3 class="section-heading">Professores de Ciência da Computação</h3>
+      <hr class="primary">
     </div>
 
-    </div>
     <div class="row">
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4235944J6" target="_blank">
-            <img class="img-profile" src="img/professores-profile/glenda.jpg">
-          </a>
-          <h4>Glenda Botelho</h4>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4779652H6" target="_blank">
-            <img class="img-profile" src="img/professores-profile/ary.jpg">
-          </a>
-          <h4>Ary Henrique</h4>
-        </div>
-      </div>
-
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4713530E4" target="_blank">
-            <img class="img-profile" src="img/professores-profile/warley.jpg">
-          </a>
-          <h4>Warley Gramacho</h4>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4713432P7" target="_blank">
-            <img class="img-profile" src="img/professores-profile/anna.jpg">
-          </a>
-          <h4>Anna Paula</h4>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4757695J9" target="_blank">
-            <img class="img-profile" src="img/professores-profile/rafael.jpg">
-          </a>
-          <h4>Rafael Lima</h4>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4247747U2" target="_blank">
-            <img class="img-profile" src="img/professores-profile/tiagoalmeida.jpg">
-          </a>
-          <h4>Tiago Almeida</h4>
-        </div>
-      </div>
+      <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-imge-1">
+              <div class="ch-info">
+                <h3>Glenda Botelho</h3>
+                <p>by Daniel Nyari <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4235944J6">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-2">
+              <div class="ch-info">
+                <h3>Ary Henrique</h3>
+                <p>by Daniel Nyari <a href="http://drbl.in/eNXW">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-3">
+              <div class="ch-info">
+                <h3>Warley Gramacho</h3>
+                <p>by Daniel Nyari <a href="http://drbl.in/eNXY">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-4">
+              <div class="ch-info">
+                <h3>Anna Paula</h3>
+                <p>by Daniel Nyari <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4235944J6">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-5">
+              <div class="ch-info">
+                <h3>Rafael Lima</h3>
+                <p>by Daniel Nyari <a href="http://drbl.in/eNXW">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-6">
+              <div class="ch-info">
+                <h3>Tiago Almeida</h3>
+                <p>by Daniel Nyari <a href="http://drbl.in/eNXY">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+        </ul>
     </div>
 
+    
     <div class="row">
       <div class="col-lg-12 text-center ">
         <br><br><br>
         <h3 class="section-heading">Centro Acadêmico de Ciência da Computação</h3>
+        <hr class="primary">
       </div>
     </div>
     
     <div class="row">
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <img class="img-profile" src="img/caccomp-profile/leonardo.jpg">
-          <h4>Leonardo Rezende</h4>
-          <span>
-            Presidente
-          </span>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="http://lattes.cnpq.br/3046219626135413"><img class="img-profile" src="img/caccomp-profile/caio.jpg"></a>
-          <h4>Caio Fernando</h4>
-          <span>
-            Vice Presidente
-          </span>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <img class="img-profile" src="img/caccomp-profile/paulo.jpg">
-          <h4>Paulo Atavila</h4>
-          <span>
-            1° Secretário
-          </span>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <img class="img-profile" src="img/caccomp-profile/felipe.jpg">
-          <h4>Felipe Reis</h4>
-          <span>
-            2° Secretária
-          </span>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <img class="img-profile" src="img/caccomp-profile/iago.jpg">
-          <h4>Iago Tíbor</h4>
-          <span>
-            Diretor de Eventos
-          </span>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <a href="https://br.linkedin.com/in/viniciusaires7" target="_blank">
-            <img class="img-profile" src="img/caccomp-profile/mauricio.jpg">
-          </a>
-          <h4>Mauricio de Souza</h4>
-          <span>
-            Diretor de Assuntos Estudantis
-          </span>
-        </div>
-      </div>
+      <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-imge-7">
+              <div class="ch-info">
+                <h3>Leonardo Rezende</h3>
+                <p>Presidente<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4235944J6">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-8">
+              <div class="ch-info">
+                <h3>Caio Fernando</h3>
+                <p>Vice Presidente<a href="http://drbl.in/eNXW">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-9">
+              <div class="ch-info">
+                <h3>Paulo Atavila</h3>
+                <p>1° Secretário<a href="http://drbl.in/eNXY">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-10">
+              <div class="ch-info">
+                <h3>Felipe Reis</h3>
+                <p>2° Secretário<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4235944J6">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-11">
+              <div class="ch-info">
+                <h3>Iago Tíbor</h3>
+                <p>Dir. de Eventos<a href="http://drbl.in/eNXW">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
     </div>
+
     <div class="row">
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <img class="img-profile" src="img/caccomp-profile/kleyson.jpg">
-          <h4>Kleyson Morais</h4>
-          <span>
-            Diretor de Ensino, Pesquisa e Extensão
-          </span>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <img class="img-profile" src="img/caccomp-profile/osmir.jpg">
-          <h4>Osmir Custódio</h4>
-          <span>
-              Diretor de Imprensa e Divulgação
-            </span>
-        </div>
-      </div>
-      <div class="col-lg-2 col-md-4 text-center">
-        <div class="service-box">
-          <img class="img-profile" src="img/caccomp-profile/matheus.jpg">
-          <h4>Matheus Aguiar</h4>
-          <span>
-              Tesoureiro
-            </span>
-        </div>
-      </div>
+      <ul class="ch-grid">
+          <li>
+            <div class="ch-item ch-imge-12">
+              <div class="ch-info">
+                <h3>Mauricio de Souza</h3>
+                <p>Dir. de Assuntos Estudantis<a href="http://drbl.in/eNXY">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-13">
+              <div class="ch-info">
+                <h3>Kleyson Morais</h3>
+                <p>Dir. de Pesquisa e Extensão<a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4235944J6">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-14">
+              <div class="ch-info">
+                <h3>Osmir Custódio</h3>
+                <p>Dir. de Imprensa e Divulgação<a href="http://drbl.in/eNXW">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="ch-item ch-imge-15">
+              <div class="ch-info">
+                <h3>Matheus Aguiar</h3>
+                <p>Tesoureiro<a href="http://drbl.in/eNXY">View on Dribbble</a></p>
+              </div>
+            </div>
+          </li>
+      </ul>
     </div>
+
+
     <br><br><br>
 
     <div class="col-lg-12 text-center">
       <h2 class="section-heading">Realização/Apoio</h2>
-      <hr class="light">
+      <hr class="primary">
     </div>
     <div class="row">
       <div class="col-lg-3 col-md-4 text-center">
@@ -684,6 +725,31 @@
   <!-- Custom Theme JavaScript -->
   <script src="js/creative.js"></script>
   <script src="js/fakeLoader.min.js"></script>
+
+  <script src="js/jquery.countdown.js"></script>
+
+  <script>
+        window.jQuery(function ($) {
+            "use strict";
+            $('h1, time').countDown({
+                with_separators: false
+            });
+        });
+  </script>
+
+  <script>
+      $("#time-section").hover(function(){
+          $("#animation").addClass("pulse-slow");
+      });
+      $("#sobre").hover(function(){
+          $("#texto").addClass("dance");
+      });
+      $("#sobre").hover(function(){
+          $("#texto").addClass("scale-bounce");
+          $("#topicos").addClass("scale-bounce");
+      });
+  </script>
+
   <script>
     $(document).ready(function() {
       $(".fakeloader").fakeLoader({

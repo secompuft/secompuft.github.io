@@ -1,9 +1,2 @@
-@font-face {
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 
-      font-family: "nexa";
-      src: url("nexa.ttf") format("truetype");
-
- }
- .eddie-font{
-    font-family: "nexa";  
- }
