@@ -40,6 +40,7 @@ a:focus {
   font-weight: 100;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'sans-serif';
   color: inherit;
@@ -343,9 +344,8 @@ header .header-content .header-content-inner p {
   padding-left: 0;
 }
 .btn-default {
-  color: #222222;
-  background-color: #ffffff;
-  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #082C44;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
