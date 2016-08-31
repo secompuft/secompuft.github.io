@@ -31,7 +31,7 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   
 
-  
+  <link rel="stylesheet" type="text/css" href="css/buttons.css" />
 
   <link rel="stylesheet" href="css/fakeLoader.css">
   <link rel="stylesheet" href="css/medals.css">
@@ -43,7 +43,6 @@
   
 
   <!-- Circle -->
-  <link rel="stylesheet" type="text/css" href="css/demo.css" />
   <link rel="stylesheet" type="text/css" href="css/common.css" />
   <link rel="stylesheet" type="text/css" href="css/stylecircle1.css" />
 
@@ -53,9 +52,6 @@
   <!-- Animações -->
   <link rel="stylesheet" type="text/css" href="css/all-animation.min.css" />
   <script type="text/javascript" src="js/jquery.js"></script>
-
-  <!-- Contagem Regressiva -->
-  <link rel="stylesheet" href="css/jquery.countdown.css" type="text/css">
 
   <!-- Plugin CSS -->
   <link rel="stylesheet" href="css/animate.min.css" type="text/css">
@@ -107,9 +103,8 @@
         <ul class="nav navbar-nav navbar-right">
 
           <li><a class="page-scroll" href="#page-top" style="padding-left: 10px;padding-right: 10px;">Início</a></li>  
-          <li><a class="page-scroll" href="#sobre" style="padding-left: 10px;padding-right: 10px;">Sobre</a></li>
           <li><a class="page-scroll" href="#eventos" style="padding-left: 10px;padding-right: 10px;">Eventos</a></li>
-          <li><a class="page-scroll" href="#patrocinadores" style="padding-left: 10px;padding-right: 10px;">Patrocinadores</a></li>
+          <li><a class="page-scroll" href="#sobre" style="padding-left: 10px;padding-right: 10px;">Sobre</a></li>
           
         </ul>
       </div>
@@ -138,12 +133,12 @@
           <span>SEMANA NACIONAL DE CIÊNCIA E TECNOLOGIA</span>
           <br>
           <div class="rw-words rw-words-1">
-            <span>UFT</span>
-            <span>IFTO</span>
-            <span>Paraíso</span>
-            <span>Porto Nacional</span>
-            <span>sugar</span>
-            <span>happiness</span>
+            <span>Palmas - UFT</span>
+            <span>Paraíso - IFTO</span>
+            <span>Porto Nacional - IFTO</span>
+            <span>Palmas - UFT</span>
+            <span>Paraíso - IFTO</span>
+            <span>Porto Nacional - IFTO</span>
           </div>
         </h2>
 
@@ -155,121 +150,78 @@
     </div>
   </section>
 
+  <section id="eventos">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="ft-personalizada"><strong><em>Como Participar?</em></strong></h2>
+        </div>
+
+        <div class="col-lg-8 col-lg-offset-2 text-center">  
+          <a href="uftpalmas.html"> <button class="button button--aylen button--round-l button--text-thick" style="font-size:16px">Palmas - UFT</button> </a>
+          <a href="paraiso.html"><button class="button button--aylen button--round-l button--text-thick" style="font-size:16px">Paraíso - IFTO</button> </a>
+          <a href="portonacional"> <button class="button button--aylen button--round-l button--text-thick" style="font-size:16px">Porto Nacional - IFTO</button></a>
+        </div>
+        
+    </div>
+   
+  </section>
+
+
   <section class="bg-globo" id="sobre" style="min-height:100%;" >
     <div class="container">
       
       
-      <div class="row" id="topicos" style = "display:none">
-            <ul class="ch-grid">
-              <li>
-              <a href="">
-                <div class="ch-item ch-imge-17">
-                  <div class="ch-info">
-                    <h3>Palestras</h3>
-                  </div>
-                </div>
-              </a>
-              </li>
-              <li>
-                <div class="ch-item ch-imge-18">
-                  <div class="ch-info">
-                    <h3>Mini Cursos</h3>
-                    <p><a href="http://drbl.in/eOPF">Saiba Mais >></a></p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="ch-item ch-imge-19">
-                  <div class="ch-info">
-                    <h3>Programação</h3>
-                    <p><a href="http://drbl.in/eOPF">Saiba Mais >></a></p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-      </div>
-
       <div class="row">
-
-                 
-          <br><br><br><br>
-          
-          <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="ft-personalizada"><strong><em>Sobre a Semana Acadêmica</em></strong></h2>
-            <hr>
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="ft-personalizada"><strong><em>O que é?</em></strong></h2>
           </div>
 
+          <div class="col-lg-8 col-lg-offset-2 text-center" id="texto">
+            <br>
+            <p align="justify">A Semana Nacional de Ciência e Tecnologia - SNCT - foi estabelecida pelo Decreto de 9 de Junho de 2004. Ela é realizada sempre no mês de outubro sob a coordenação do MCTIC, por meio do Departamento de Difusão e Popularização da Ciência e Tecnologia (DEPDI/SECIS) e conta com a colaboração de secretarias estaduais e municipais, agências de fomento, espaços científico-culturais, instituições de ensino e pesquisa, sociedades científicas, escolas, órgãos governamentais, empresas de base tecnológica e entidades da sociedade civil. Tem o objetivo de aproximar a Ciência e Tecnologia da população, promovendo eventos que congregam centenas de instituições a fim de realizarem atividades de divulgação científica em todo o País. A ideia é criar uma linguagem acessível à população, por meios inovadores que estimulem a curiosidade e motivem a população a discutir as implicações sociais da Ciência, além de aprofundarem seus conhecimentos sobre o tema.</p>
+          </div>
+
+          <br><br>
+          
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="ft-personalizada"><strong><em>Quem participa?</em></strong></h2>
+          </div>
 
           <div class="col-lg-8 col-lg-offset-2 text-center" id="texto">
-            <br><br>
-            <p>O objetivo geral da Semana Acadêmica é incentivar a participação de acadêmicos e profissionais de áreas ligadas a tecnologia e a computação, além de fomentar projetos científicos, de pesquisa, de extensão e o desenvolvimento de produtos e ferramentas que possam trazer ganhos para a sociedade, para os profissionais e para as empresas participantes. Também objetiva-se promover a integração entre os acadêmicos e os profissionais de computação, como forma de estreitar relações e diminuir as dificuldades, os medos e os mitos quanto a inserção dos acadêmicos no mercado de trabalho</p>
+            <br>
+            <p align="justify">Todas as pessoas interessadas podem participar das atividades da SNCT. Atualmente, colaboram com a realização deste grande evento as universidades e instituições de pesquisa; escolas públicas e privadas; institutos de ensino tecnológico; entidades científicas e tecnológicas; fundações de apoio à pesquisa; parques ambientais, unidades de conservação, jardins botânicos e zoológicos; secretarias estaduais e municipais de educação; empresas públicas e privadas; meios de comunicação; órgãos governamentais; ONGs e outras entidades da sociedade civil.</p>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="ft-personalizada"><strong><em>Qual o tema desse ano?</em></strong></h2>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2 text-center" id="texto">
+            <br>
+            <p align="justify"> "<strong>Ciência Alimentando o Brasil</strong>" é o tema escolhido para esta edição da Semana Nacional de Ciência e Tecnologia (SNCT). A motivação para a escolha baseia-se na decisão da Assembleia Geral das Nações Unidas, que proclamou 2016 como o Ano Internacional da Leguminosas (AIL).</p>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2">
+            <h2 class="ft-personalizada"><strong><em>Quem Coordena?</em></strong></h2>
+          </div>
+
+          <div class="col-lg-8 col-lg-offset-2 text-center" id="texto">
+            <br>
+            <p align="justify">A coordenação nacional da SNCT é de responsabilidade do Ministério da Ciência, Tecnologia Inovações e Comunicações (MCTIC), por meio do Departamento de Popularização e Difusão de C&T (DEPDI), da Secretaria de C&T para Inclusão Social (SECIS).Em cada estado, existem parceiros locais que podem orientar em como participar da SNCT.  A realização da Semana conta com a participação ativa de governos estaduais e municipais, de instituições de ensino e pesquisa, e de entidades ligadas à C&T de cada região. Muitos estados e municípios já criaram suas semanas estaduais ou municipais de C&T, articuladas com a SNCT.</p>
           </div>
 
       </div>
 
     </div>  
-  </section>
-  
-  <section id="eventos" class="bg-gradient ">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="ft-personalizada"><strong><em>Eventos</em></strong></h2>
-            <hr>
-        </div>
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <nav>
-              
-              <a href="uftpalmas.html">UFT - Palmas</a> |
-              <a href="paraiso.html">Paraíso do Tocantins</a> |
-              <a href="portonacional">Porto Nacional</a> |
-              <a href="ifto">IFTO - Palmas</a>
-          </nav>
-
-        </div>
-      </div>
-    </div>
-    <div class="container" id="organizacao_content">
-
-    </div>
-  </section>
-
-  <section id="patrocinadores">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-            <h2 class="ft-personalizada"><strong><em>Patrocinadores</em></strong></h2>
-            <hr>
-        </div>
-      </div>
-    </div>
-
-    <div class="container" id="patrocinadores_content">
-
-    </div>
-
-  </section>
-
-
+  </section>  
 
   <section id="footer" class="footer">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center">
-          <p>Universidade Federal do Tocantins - Palmas 
-            <br>Esplanada dos Ministérios, Bloco E - Sala 274 - CEP: 70.067-900
+          <p>UFT - Palmas 
             <br>
-            (61) 2033-7828 / (61) 2033-8620 
-            <br>
-            (61) 2033-7826 / (61) 2033-5148 
-            <br>
-            semanact@mcti.gov.br</p>
-
-            <nav>
-              <a href="uftpalmas.html">UFT - Palmas</a> |
-              
-          </nav>
         </div>
       </div>
     </div>
@@ -296,12 +248,6 @@
                 with_separators: false
             });
         });
-  </script>
-
-  <script>
-      $("#sobre").hover(function(){
-          $("#topicos").slideDown();
-      });
   </script>
 
   <script>
