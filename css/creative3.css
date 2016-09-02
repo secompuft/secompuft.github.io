@@ -31,10 +31,6 @@ a:hover,
 a:focus {
   color: #eb3812;
 }
-.selecao {
-  color:green;  
-  text-decoration:none
-}
 
 .footer{
   background: #4FAF47;
@@ -54,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 em {
-  color: #2f692a;
+  color: #4FAF47;
 }
 
 p{
@@ -64,7 +60,7 @@ p{
 }
 .bg-primary {
   color: #fff;
-  background-color: #40AAB9;
+  background-color: #4FAF47;
 }
 .bg-gradient {
   background-image: linear-gradient(to bottom, rgba(249, 250, 252, 0) 15%, #e6e6e6 100%);
@@ -95,9 +91,8 @@ p{
     background: linear-gradient(22deg, #f7f7f7 0%, #f7f7f7 57%, #eef0f0 57.2%, #f7f7f7 100%);
 }
 
-
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 
