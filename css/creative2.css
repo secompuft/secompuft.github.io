@@ -80,8 +80,9 @@ p{
   color: white;
   background-color: #39caa1;
 }.bg-grad {
+    color: white;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
-    background: linear-gradient(22deg, rgba(79, 175, 71, 0.76) 0%, #36B8A8 57%, rgba(79, 175, 71, 0.93) 57.2%, #3c763d 100%);
+    background: linear-gradient(22deg, rgba(60, 186, 170, 0.47) 0%, rgb(70, 156, 150) 57%, rgba(16, 128, 120, 0.73) 57.2%, rgb(7, 121, 108) 100%);
 }.bg-globo {
     z-index: 15;
     background: transparent url(../img/globo.png) center center no-repeat;

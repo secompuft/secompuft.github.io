@@ -80,6 +80,7 @@ p{
   color: white;
   background-color: #39caa1;
 }.bg-grad {
+    color: white;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
     background: linear-gradient(22deg, rgba(79, 175, 71, 0.76) 0%, #4FAF47 57%, rgba(79, 175, 71, 0.93) 57.2%, #3c763d 100%);
 }.bg-globo {
