@@ -94,7 +94,9 @@ p{
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
     background: linear-gradient(22deg, #f7f7f7 0%, #f7f7f7 57%, #eef0f0 57.2%, #f7f7f7 100%);
 }
-
+.botao-esq{
+  float: right;
+}
 
 section {
   padding: 100px 0;

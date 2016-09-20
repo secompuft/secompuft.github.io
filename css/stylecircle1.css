@@ -16,129 +16,22 @@
 }
 
 .ch-imge-1 { 
-	background-image: url(../img/professores-profile/glenda.jpg);
+	background-image: url(../img/palestrante/warley.jpg);
 	background-repeat: no-repeat;
     background-position: center;
 }
 
 .ch-imge-2 { 
-	background-image: url(../img/professores-profile/ary.jpg);
+	background-image: url(../img/palestrante/sergio.jpg);
 	background-repeat: no-repeat;
     background-position: center;
 }
 
-.ch-imge-3 { 
-	background-image: url(../img/professores-profile/warley.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-4 { 
-	background-image: url(../img/professores-profile/anna.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-5 { 
-	background-image: url(../img/professores-profile/rafael.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-6 { 
-	background-image: url(../img/professores-profile/tiagoalmeida.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-7 { 
-	background-image: url(../img/caccomp-profile/leonardo.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-8 { 
-	background-image: url(../img/caccomp-profile/caio.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-9 { 
-	background-image: url(../img/caccomp-profile/paulo.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-10 { 
-	background-image: url(../img/caccomp-profile/felipe.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-11 { 
-	background-image: url(../img/caccomp-profile/iago.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-12 { 
-	background-image: url(../img/caccomp-profile/mauricio.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-13 { 
-	background-image: url(../img/caccomp-profile/kleyson.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-14 { 
-	background-image: url(../img/caccomp-profile/osmir.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-15 { 
-	background-image: url(../img/caccomp-profile/matheus.jpg);
-	background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-16 {
-	background-image: url(../img/joystick-game.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-17 {
-	background-image: url(../img/speech.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-18 {
-	background-image: url(../img/workspace.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-19 {
-	background-image: url(../img/binary-code.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.ch-imge-20 {
-	background-image: url(../img/cronograma.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 
 .ch-info {
 	position: absolute;
-	background: rgba(81, 176, 73, 0.94);
+	background: rgba(8, 44, 68, 0.77);
 	width: inherit;
 	height: inherit;
 	border-radius: 50%;

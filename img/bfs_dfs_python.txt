@@ -1,0 +1,23 @@
+def dfs(grafo, inicio):
+    visitado, stack = [], [inicio]
+    while stack:
+        vertex = stack.pop()
+        if vertex not in visitado:
+            visitado.append(vertex)
+            print vertex
+            stack.extend(v for v in grafo[vertex] if v not in visitado and v not in stack)
+            print stack
+            print "visitados: ", visitado
+    return visitado
+
+def bfs(grafo, inicio):
+    visitado, queue = [], [inicio]
+    while queue:
+        vertex = queue.pop(0)
+        if vertex not in visitado:
+            visitado.append(vertex)
+            print vertex
+            queue.extend(v for v in grafo[vertex] if v not in visitado and v not in queue)
+            print queue
+            print "visitados: ", visitado
+    return visitado
