@@ -89,6 +89,9 @@ p{
 }.bg-grad2 {
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
     background: linear-gradient(22deg, #f7f7f7 0%, #f7f7f7 57%, #eef0f0 57.2%, #f7f7f7 100%);
+}.bg-grad3 {
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pg0KPHN2ZyB4bWxucz0ia…BoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+DQo8L3N2Zz4=);
+    background: linear-gradient(22deg, rgb(255, 199, 60) 0%, rgba(255, 199, 60, 0.7) 57%, rgba(255, 199, 60, 0.92) 57.2%, rgba(255, 153, 0, 0.57) 100%);
 }
 
 section {

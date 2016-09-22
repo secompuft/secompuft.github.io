@@ -27,6 +27,42 @@
     background-position: center;
 }
 
+.ch-imge-3 { 
+	background-image: url(../img/palestrante/andreas.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ch-imge-4 { 
+	background-image: url(../img/palestrante/antonio.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ch-imge-5 { 
+	background-image: url(../img/palestrante/daniel.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ch-imge-6 { 
+	background-image: url(../img/palestrante/jeferson.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ch-imge-7 { 
+	background-image: url(../img/palestrante/maikon.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ch-imge-8 { 
+	background-image: url(../img/palestrante/paulo.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 .ch-info {
