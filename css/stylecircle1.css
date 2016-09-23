@@ -63,6 +63,12 @@
     background-position: center;
 }
 
+.ch-imge-9 { 
+	background-image: url(../img/palestrante/felipe.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 .ch-info {
