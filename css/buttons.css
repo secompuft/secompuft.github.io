@@ -15,11 +15,11 @@
 /* Common button styles */
 .button {
 	float: left;
-	min-width: 205px;
+	min-width: 180px;
 	max-width: 260px;
 	display: block;
 	margin: 1em;
-	padding: 2em 2em;
+	padding: 2em 1em;
 	border: none;
 	background: none;
 	color: inherit;
