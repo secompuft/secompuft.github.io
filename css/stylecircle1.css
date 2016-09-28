@@ -69,6 +69,12 @@
     background-position: center;
 }
 
+.ch-imge-10 { 
+	background-image: url(../img/palestrante/amanda.jpg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 .ch-info {
