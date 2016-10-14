@@ -25,7 +25,7 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #8A3785;
+  color: #EE1D23;
 }
 a:hover,
 a:focus {
@@ -33,7 +33,7 @@ a:focus {
 }
 
 .footer{
-  background: #8A3785;
+  background: #EE1D23;
   color: #ebebeb;
   padding: 20px 0;
   text-align: center;
@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 em {
-  color: #8A3785;
+  color: #EE1D23;
 }
 
 p{
@@ -60,7 +60,7 @@ p{
 }
 .bg-primary {
   color: #fff;
-  background-color: #8A3785;
+  background-color: #EE1D23;
 }
 .bg-gradient {
   background-image: linear-gradient(to bottom, rgba(249, 250, 252, 0) 15%, #e6e6e6 100%);
@@ -122,7 +122,7 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #8A3785;
+  color: #EE1D23;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -140,11 +140,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #8A3785;
+  color: #EE1D23;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #8A3785 !important;
+  color: #EE1D23 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -191,7 +191,7 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #8A3785;
+    color: #EE1D23;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -204,7 +204,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #8A3785;
+    color: #EE1D23;
   }
 }
 
@@ -219,7 +219,7 @@ header {
   background-position: center;
   background-image: url('../img/logoparaiso.png');
   text-align: center;
-  background-color: #8A3785;
+  background-color: #EE1D23;
   color: white;
 }
 header .header-content {
@@ -341,7 +341,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #8A3785;
+  color: #EE1D23;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -349,7 +349,7 @@ header .header-content .header-content-inner p {
 }
 .btn-default {
   color: #ffffff;
-  background-color: #8A3785;
+  background-color: #EE1D23;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -396,8 +396,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: #ffffff;
-  background-color: #8A3785;
-  border-color: #8A3785;
+  background-color: #EE1D23;
+  border-color: #EE1D23;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -435,11 +435,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #8A3785;
-  border-color: #8A3785;
+  background-color: #EE1D23;
+  border-color: #EE1D23;
 }
 .btn-primary .badge {
-  color: #8A3785;
+  color: #EE1D23;
   background-color: #ffffff;
 }
 .btn {
